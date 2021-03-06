@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 const Rating = ({ value, text, color }) => {
   return (
     <div className="rating">
+      <span>{value}/5 </span>
       <span>
         <i
           style={{ color }}
